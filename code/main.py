@@ -1,5 +1,5 @@
 
-from folder.another_file import do_something
+from code.folder.another_file import do_something
 
 
 def user_input():
