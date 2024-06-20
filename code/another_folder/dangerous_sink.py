@@ -1,2 +1,2 @@
 def dangerous_sink(id: int):
-    pass
+    print(id)
