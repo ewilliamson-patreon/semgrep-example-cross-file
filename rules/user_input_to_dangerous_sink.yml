@@ -1,0 +1,14 @@
+# TODO WE NEED SANATIZERS HERE (first step is figuring these out).
+rules:
+  - id: user_input_to_dangerous_sink
+    languages:
+      - python
+    severity: INFO
+    message: we should be identifying a source -> sink taint
+    pattern-sources:
+      - pattern: user_input(...)
+    pattern-sinks:
+      - pattern: dangerous_sink(...)
+    mode: taint
+    options:
+      interfile: true
