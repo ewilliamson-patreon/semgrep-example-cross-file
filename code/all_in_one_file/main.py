@@ -1,5 +1,5 @@
 def dangerous_sink(id: int):
-    pass
+    print(id)
 
 def user_input():
     return {"id": "123"}
