@@ -12,7 +12,3 @@ def doit():
 
     # BUG: this call is not followed in cross file
     sink.a_function(user_input())
-
-
-if __name__ == "__main__":
-    doit()
